@@ -1,0 +1,125 @@
+header{
+  z-index: 2;
+}
+.login {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/download\ \(1\).jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+  }
+  
+  .container2 {
+    max-width: 400px;
+    padding: 30px 20px;
+    background: rgba(136, 135, 135, 0.005); 
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .container2 h1 {
+    text-align: center;
+    color: #fff; 
+    margin-bottom: 20px;
+  }
+  
+  .part {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+  }
+  
+  .part label {
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .part .icon {
+    position:absolute;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 355px;
+  }
+  
+  .icon img {
+    max-width: 55%;
+  }
+  
+  #inp {
+    width: 100%;
+    padding: 10px ; 
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    background: transparent;
+    color: white;
+  }
+  
+  .lastpart1,
+  .lastpart2 {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .check {
+    margin-right: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 10px;
+    background: #6b46bb; 
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  span a {
+    color: #776fa8;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+
+
+/* 
+input{
+   
+
+}
+lable{
+    
+    margin: 40px;
+    background-color: bisque;
+    display: inline-block;
+}
+
+.icon{
+    width:20%;
+    display: flex;
+    background-color: blue;
+}
+.icon img{
+    width: 100%;
+}
+.dilable{
+    display: inline-block;
+    width: 100%;
+}
+.laaable{
+    width: 50%;
+} */
